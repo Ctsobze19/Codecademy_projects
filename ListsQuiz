@@ -1,0 +1,30 @@
+Review
+In this lesson, we learned how to:
+
+Get the length of a list
+Select subsets of a list (called slicing)
+Count the number of times that an element appears in a list
+Sort a list of items
+
+
+
+inventory = ['twin bed', 'twin bed', 'headboard', 'queen bed', 'king bed', 'dresser', 'dresser', 'table', 'table', 'nightstand', 'nightstand', 'king bed', 'king bed', 'twin bed', 'twin bed', 'sheets', 'sheets', 'pillow', 'pillow']
+
+inventory_len = len(inventory)
+
+print(inventory_len)
+
+first = inventory[0]
+
+last = inventory[-1]
+
+inventory_2_6 = inventory[2:6]
+
+first_3 = inventory[:3]
+
+twin_beds = inventory.count("twin bed")
+
+inventory.sort()
+sorted(inventory)
+
+print(inventory)
