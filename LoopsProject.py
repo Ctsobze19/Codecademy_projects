@@ -11,11 +11,11 @@ for price in prices:
   
 average_price = total_price // len(prices)
 
-print(average_price)
+print("The average price is " + str(average_price))
 
 new_prices = [price - 5 for price in prices]
 
-print(new_prices)
+print( "The new prices are " + str(new_prices))
 
 total_revenue = 0
 for i in range(len(hairstyles)):
@@ -26,7 +26,4 @@ average_daily_revenue = total_revenue // 7
 
 cuts_under_30 = [hairstyles[i] for i in range(len(new_prices) - 1) if new_prices[i] < 30]
 
-print(cuts_under_30)
-
-
-  
+print("The cuts that are under $30 are " + str(cuts_under_30))
